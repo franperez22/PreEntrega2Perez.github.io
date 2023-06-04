@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.Navbar {
+    background-color:transparent;
+    z-index: 4;
+}
+.navbar-brand img {
+    width: 150px;
+  }
+  
+  .navbar-nav {
+    align-items: center;
+  }
+  .navbar .navbar-nav .nav-link {
+    color: #ffffff;
+    font-size: 1.1em;
+    padding: 0.5em 1em;
+  }

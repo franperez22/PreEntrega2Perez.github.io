@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.carousel-bg {
+    background-image: url(../img/carrusel1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .carousel-bg-2 {
+    background-image: url(../img/carrusel2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .carousel-bg-3 {
+    background-image: url(../img/carrusel3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.carousel-item {
+    height: 800px;
+  }
+  .carousel-caption {
+    position: absolute; 
+    right: 0;
+    bottom: 40%;
+    left: 0;
+  }
+  .Navbar {
+    background-color:transparent;
+    z-index: 4;
+}
+.navbar-brand img {
+    width: 150px;
+  }
+  
+  .navbar-nav {
+    align-items: center;
+  }
+  .navbar .navbar-nav .nav-link {
+    color: #ffffff;
+    font-size: 1.1em;
+    padding: 0.5em 1em;
+  }
+  .column {
+    float: left;
+    color: #9b9c9c;
+    width: 33% !important;
+    height: 100%;
+    position: relative;
+    display: flex;
+    text-align: left;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.btn{
+    background-color: black;
+    color: white;
+}
