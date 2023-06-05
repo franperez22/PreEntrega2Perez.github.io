@@ -43,7 +43,15 @@ ul li{
 .navbar-brand img {
     width: 150px;
   }
-  
+  .nav-link{
+    font-family: 'Roboto Mono', monospace;
+  }
+  h5{
+    font-family: 'Roboto Mono', monospace;
+  }
+  p.card-text{
+    font-family: 'Lato', sans-serif;
+  }
   .navbar-nav {
     align-items: center;
   }
@@ -75,13 +83,7 @@ ul li{
 .btn:hover{
     background-color: rgb(119, 114, 114);
 }
-.nav-link:hover{
-    transition: 0.9s;
-    background-color: #b2aeae;
-    border-radius: 5px;
-    margin: 5px;
-    padding: 5px;
-}
+
 .list-group-item.footer-list{
     padding: 8px 0;
 }
